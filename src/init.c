@@ -170,7 +170,7 @@ R_ExternalMethodDef externalMethods[] = {
 {NULL, NULL, 0}
 };
 
-void attribute_visible R_init_datatable(DllInfo *info)
+void attribute_visible R_init_datatable1119(DllInfo *info)
 // relies on pkg/src/Makevars to mv data.table.so to datatable.so
 {
   R_registerRoutines(info, NULL, callMethods, NULL, externalMethods);
